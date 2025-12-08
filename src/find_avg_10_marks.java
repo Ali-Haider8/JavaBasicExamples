@@ -32,7 +32,7 @@ public class find_avg_10_marks {
         System.out.println("Enter Eleventh Number: ");
         n10 = input.nextInt();
 
-        sum = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9;
+        sum = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
         avg = (double) sum / 10;
 
         System.out.println("---------------");
