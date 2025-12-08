@@ -16,6 +16,7 @@ public class find_the_smaller_from_three_numbers {
         System.out.println("Enter Z: ");
         z = input.nextInt();
 
+        System.out.println("---------------");
         System.out.println("The smallest number is ");
 
         if (x < y && x < z) {

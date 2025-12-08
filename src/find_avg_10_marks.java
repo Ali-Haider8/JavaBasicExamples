@@ -35,6 +35,7 @@ public class find_avg_10_marks {
         sum = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9;
         avg = (double) sum / 10;
 
+        System.out.println("---------------");
         System.out.println("The Avg: " + avg);
 
     }
