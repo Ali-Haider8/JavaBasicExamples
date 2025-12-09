@@ -1,3 +1,5 @@
+package LectureOne;
+
 import java.util.Scanner;
 
 public class find_the_smaller_from_three_numbers {

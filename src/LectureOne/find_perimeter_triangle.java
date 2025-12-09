@@ -1,3 +1,5 @@
+package LectureOne;
+
 import java.util.Scanner;
 
 public class find_perimeter_triangle {

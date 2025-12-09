@@ -1,3 +1,5 @@
+package LectureOne.Lab;
+
 import java.util.Scanner;
 
 public class covert_from_int_to_double {
