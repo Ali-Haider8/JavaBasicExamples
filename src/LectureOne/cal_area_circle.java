@@ -9,6 +9,7 @@ public class cal_area_circle {
         double area;
         String result;
 
+        // update from fedora os
         System.out.println("Cal. Find area of circle");
         System.out.println("---------------");
 
