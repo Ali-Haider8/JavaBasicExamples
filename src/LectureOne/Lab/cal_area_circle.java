@@ -1,4 +1,4 @@
-package LectureOne;
+package LectureOne.Lab;
 
 import java.util.Scanner;
 

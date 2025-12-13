@@ -76,6 +76,5 @@ public class SecondLecture {
         else
             System.out.println(x + " is odd");
 
-
     }
 }
