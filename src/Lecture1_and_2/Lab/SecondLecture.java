@@ -1,4 +1,4 @@
-package LectureOne.Lab;
+package Lecture1_and_2.Lab;
 
 import java.util.Scanner;
 
