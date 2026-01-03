@@ -17,8 +17,8 @@
 Lecture notes and references are available in the `docs/Theory` directory.
 
 ## 👨‍🏫 Instructors
-- **Assist. Prof. Mohammed Redha Al-Kaabi**
-- **Asst. Lecturer Zahraa Azhar**
+- **Lecturer Mohammed Redha Al-Kaabi**
+- **Lecturer Zahraa Azhar**
 
 > *📅 **Learning Start Date — December 2025***
 
