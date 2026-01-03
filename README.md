@@ -15,8 +15,10 @@
 📘 **Course Materials:**  
 Lecture notes and references are available in the `docs/Theory` directory.
 
+## 👨‍🏫 Instructors
+- **Assist. Prof. Mohammed Redha Al-Kaabi**
+- **Asst. Lecturer Zahraa Azhar**
 
 > *📅 **Learning Start Date — December 2025***
 
 🎯 **Purpose:** To organize Java course materials for practice and reference.
-
