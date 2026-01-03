@@ -8,7 +8,13 @@
 - 🧩 Course-related code files
 
 ## 🏫 Academic Source
-**University of Kufa – Computer Science**
+**University of Kufa**  
+**Faculty of Computer Science and Mathematics**  
+**Department of Computer Science**
+
+📘 **Course Materials:**  
+Lecture notes and references are available in the `docs/Theory` directory.
+
 
 > *📅 **Learning Start Date — December 2025***
 
