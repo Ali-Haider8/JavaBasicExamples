@@ -10,7 +10,7 @@
 ## 🏫 Academic Source
 **University of Kufa**  
 **Faculty of Computer Science and Mathematics**  
-**Department of Computer Science**
+**Department of Computer Science**  
 **Batch: 2025–2026**
 
 📘 **Course Materials:**  
