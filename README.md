@@ -11,6 +11,7 @@
 **University of Kufa**  
 **Faculty of Computer Science and Mathematics**  
 **Department of Computer Science**
+**Batch: 2025–2026**
 
 📘 **Course Materials:**  
 Lecture notes and references are available in the `docs/Theory` directory.
