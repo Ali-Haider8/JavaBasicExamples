@@ -1,4 +1,4 @@
-package Lecture1_and_2;
+package Lecture2;
 
 public class summation_5_3 {
     public static void main(String[] args) {

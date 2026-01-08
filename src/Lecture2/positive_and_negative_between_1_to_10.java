@@ -1,4 +1,4 @@
-package Lecture1_and_2;
+package Lecture2;
 
 public class positive_and_negative_between_1_to_10 {
     public static void main(String[] args) {

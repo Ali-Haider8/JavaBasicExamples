@@ -1,6 +1,6 @@
 package Lecture5;
 
-public class prefix_and_postfix_increment {
+public class AutoIncrement {
 
     public static void main(String[] args) {
         int x = 5;

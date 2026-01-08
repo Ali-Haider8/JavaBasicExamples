@@ -1,4 +1,4 @@
-package Lecture1_and_2;
+package Lecture2;
 
 public class print_1_to_10 {
     public static void main(String[] args) {
