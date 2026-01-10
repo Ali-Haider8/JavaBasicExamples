@@ -4,23 +4,26 @@ import java.util.Scanner;
 
 public class AverageResult {
 
-    static double readMark(Scanner sc, String msg) {
+    static double readMark(Scanner sc, int markNumber) {
         while (true) {
-            System.out.print(msg);
+            System.out.print("Enter Mark " + markNumber + ": ");
+            String value = sc.next();
 
-            if (!sc.hasNextDouble()) {
-                System.out.println("Invalid Input!");
-                sc.next();
-                continue;
+            if (value.equalsIgnoreCase("done"))
+                return Double.NaN;
+
+
+            try {
+                double mark = Double.parseDouble(value);
+
+                if (mark >= 0 && mark <= 100)
+                    return mark;
+                else
+                    System.out.println("Invalid Mark");
+
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid input, please enter a number.");
             }
-
-            double mark = sc.nextDouble();
-
-            // Range check 0..100
-            if (mark >= 0 && mark <= 100)
-                return mark;
-            else
-                System.out.println("Invalid mark!");
 
         }
     }
@@ -29,10 +32,34 @@ public class AverageResult {
 
         Scanner sc = new Scanner(System.in);
 
-        double mark1 = readMark(sc, "Enter Mark 1 (0-100): ");
-        double mark2 = readMark(sc, "Enter Mark 2 (0-100): ");
+        double sum = 0;
+        int count = 0;
 
-        double avg = (mark1 + mark2) / 2;
+        System.out.println();
+        System.out.println("Passed or Failed Calculator");
+        System.out.println("---------------");
+        System.out.println();
+        System.out.println("Enter Marks between 0 and 100.");
+        System.out.println("Type 'done' to finish (minium 2 marks required).");
+        System.out.println();
+
+        while (true) {
+            double mark = readMark(sc, count + 1);
+
+            // done entered
+            if (Double.isNaN(mark))
+                if (count >= 2)
+                    break;
+                else {
+                    System.out.println("You must enter at least two marks before finishing.");
+                    continue;
+                }
+
+            sum += mark;
+            count++;
+        }
+
+        double avg = sum / count;
 
         System.out.println("Average: " + avg);
         if (avg >= 50)
