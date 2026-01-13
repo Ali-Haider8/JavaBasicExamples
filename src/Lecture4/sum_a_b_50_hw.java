@@ -1,6 +1,6 @@
 package Lecture4;
 
-public class sum_a_b_50 {
+public class sum_a_b_50_hw {
 
     public static void main(String[] args) {
         int A = 20;
