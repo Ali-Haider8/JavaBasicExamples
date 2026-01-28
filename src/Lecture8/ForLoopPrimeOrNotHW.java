@@ -16,21 +16,21 @@ public class ForLoopPrimeOrNotHW {
     public static void main(String[] args) {
         /*
         Prime number is the number that accept division by 1 and itself only
-        for example 
-        5 
-        we can only 
+        for example
+        5
+        we can only
         5 / 5 = 1
         5 / 1 = 5
-        
+
         so 5 is prime number
-        
+
         for example 4
-        4/4=1
-        4/1=4
-        4/2=2
+        4 / 4 = 1
+        4 / 1 = 4
+        4 / 2 = 2
         so it accept division three times without any remain numbers
         so it not a prime number
-         */
+*/
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter an integer value: ");
