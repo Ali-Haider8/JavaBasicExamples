@@ -1,4 +1,4 @@
-# ☕ Java Basic Examples
+# ☕ COMP101: Programming Basics
 
 > *A repository for storing **Java examples and practical exercises** from an academic course.*
 
