@@ -15,14 +15,16 @@ public class StudentAverageFinderSwitch {
             return;
         }
 
-        String result = switch (student_average / 10) {
-            case 10 -> "Excellent";
-            case 9 -> "Excellent";
-            case 8 -> "Very Good";
-            case 7 -> "Good";
-            case 6 -> "Medium";
-            case 5 -> "Accepted";
-            default -> "Fail";
+        String result ;
+        switch (student_average / 10) {
+            case 10:
+            case 9:
+                result= "Excellent"; break;
+            case 8: result= "Very Good"; break;
+            case 7: result= "Good"; break;
+            case 6: result= "Medium"; break;
+            case 5: result= "Accepted"; break;
+            default: result= "Fail";
         };
 
         System.out.println("The Average is " + result);
